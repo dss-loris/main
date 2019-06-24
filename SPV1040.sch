@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 34
+Sheet 3 34
 Title "Electrical Power System"
 Date "2019-04-25"
 Rev "1.0"
@@ -21,10 +21,6 @@ Wire Wire Line
 Connection ~ 4550 3500
 Wire Wire Line
 	4550 3500 4650 3500
-Wire Wire Line
-	4550 3700 4750 3700
-Wire Wire Line
-	5050 3700 5350 3700
 Wire Wire Line
 	7100 3600 7100 3500
 Wire Wire Line
@@ -71,14 +67,10 @@ Wire Wire Line
 Wire Wire Line
 	7850 3800 8450 3800
 Wire Wire Line
-	5200 4600 5200 4350
-Wire Wire Line
-	5200 4050 5200 3800
-Wire Wire Line
 	4150 3500 4150 4050
-Text HLabel 4150 3500 0    50   Input ~ 0
+Text HLabel 3800 3500 0    50   Input ~ 0
 PV+
-Text HLabel 4150 4650 0    50   Input ~ 0
+Text HLabel 3850 4550 0    50   Input ~ 0
 PV-
 Wire Wire Line
 	8450 4050 8450 3800
@@ -163,18 +155,18 @@ $EndComp
 $Comp
 L Device:L L?
 U 1 1 5CCCC1D3
-P 4900 3700
+P 4700 3700
 AR Path="/5CC6D79E/5CC8FD75/5CCCC1D3" Ref="L?"  Part="1" 
 AR Path="/5CC6D79E/5CCAFF7B/5CCCC1D3" Ref="L?"  Part="1" 
 AR Path="/5CC6D79E/5CCB70B2/5CCCC1D3" Ref="L?"  Part="1" 
 AR Path="/5CC6D79E/5CCB7099/5CCCC1D3" Ref="L?"  Part="1" 
 AR Path="/5CC6D79E/5CC9E1D4/5CCCC1D3" Ref="L?"  Part="1" 
 AR Path="/5CC6D79E/5CCB4B5E/5CCCC1D3" Ref="L?"  Part="1" 
-F 0 "L?" V 4850 3700 50  0000 C CNN
-F 1 "10uH" V 4999 3700 50  0000 C CNN
-F 2 "" H 4900 3700 50  0001 C CNN
-F 3 "~" H 4900 3700 50  0001 C CNN
-	1    4900 3700
+F 0 "L?" V 4650 3700 50  0000 C CNN
+F 1 "10uH" V 4600 3700 50  0000 C CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "~" H 4700 3700 50  0001 C CNN
+	1    4700 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -231,18 +223,18 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5CCCE41F
-P 5200 4200
+P 5200 4350
 AR Path="/5CC6D79E/5CC8FD75/5CCCE41F" Ref="C?"  Part="1" 
 AR Path="/5CC6D79E/5CCAFF7B/5CCCE41F" Ref="C?"  Part="1" 
 AR Path="/5CC6D79E/5CCB70B2/5CCCE41F" Ref="C?"  Part="1" 
 AR Path="/5CC6D79E/5CCB7099/5CCCE41F" Ref="C?"  Part="1" 
 AR Path="/5CC6D79E/5CC9E1D4/5CCCE41F" Ref="C?"  Part="1" 
 AR Path="/5CC6D79E/5CCB4B5E/5CCCE41F" Ref="C?"  Part="1" 
-F 0 "C?" H 5315 4246 50  0000 L CNN
-F 1 "10uF" H 5315 4155 50  0000 L CNN
-F 2 "" H 5238 4050 50  0001 C CNN
-F 3 "~" H 5200 4200 50  0001 C CNN
-	1    5200 4200
+F 0 "C?" H 5315 4396 50  0000 L CNN
+F 1 "10uF" H 5315 4305 50  0000 L CNN
+F 2 "" H 5238 4200 50  0001 C CNN
+F 3 "~" H 5200 4350 50  0001 C CNN
+	1    5200 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -420,7 +412,70 @@ $EndComp
 Wire Wire Line
 	5350 3000 5350 3100
 Wire Wire Line
-	4150 4350 4150 4650
-Wire Wire Line
 	8450 4350 8450 4700
+$Comp
+L Device:D_Schottky D?
+U 1 1 5D11DAAA
+P 5050 3950
+F 0 "D?" H 5050 4050 50  0000 C CNN
+F 1 "D_Schottky" H 5100 4100 50  0000 C CNN
+F 2 "" H 5050 3950 50  0001 C CNN
+F 3 "~" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	-1   0    0    1   
+$EndComp
+Connection ~ 5200 3950
+Wire Wire Line
+	5200 3950 5200 3800
+Wire Wire Line
+	4900 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 3700
+Wire Wire Line
+	4850 3700 5350 3700
+Connection ~ 4850 3700
+$Comp
+L Device:D_Zener D?
+U 1 1 5D120B71
+P 5600 4350
+F 0 "D?" V 5554 4429 50  0000 L CNN
+F 1 "D_Zener" V 5645 4429 50  0000 L CNN
+F 2 "" H 5600 4350 50  0001 C CNN
+F 3 "~" H 5600 4350 50  0001 C CNN
+	1    5600 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 4200 5200 4200
+Wire Wire Line
+	5200 3950 5200 4200
+Connection ~ 5200 4200
+Wire Wire Line
+	5200 4500 5200 4600
+$Comp
+L power:GNDD #PWR?
+U 1 1 5D123986
+P 5600 4600
+AR Path="/5CC6D79E/5CC8FD75/5D123986" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6D79E/5CCAFF7B/5D123986" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6D79E/5CCB70B2/5D123986" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6D79E/5CCB7099/5D123986" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6D79E/5CC9E1D4/5D123986" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6D79E/5CCB4B5E/5D123986" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5600 4350 50  0001 C CNN
+F 1 "GNDD" H 5604 4445 50  0000 C CNN
+F 2 "" H 5600 4600 50  0001 C CNN
+F 3 "" H 5600 4600 50  0001 C CNN
+	1    5600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4500 5600 4600
+Wire Wire Line
+	3800 3500 4150 3500
+Connection ~ 4150 3500
+Wire Wire Line
+	3850 4550 4150 4550
+Wire Wire Line
+	4150 4550 4150 4350
 $EndSCHEMATC
