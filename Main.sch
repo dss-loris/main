@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 34
+Sheet 1 36
 Title "Electrical Power System"
 Date "2019-04-25"
 Rev "1.0"
@@ -967,13 +967,13 @@ Connection ~ 7200 4850
 Wire Wire Line
 	7200 4850 7700 4850
 $Sheet
-S 7800 3500 900  750 
+S 8100 3500 900  750 
 U 5CF7185D
 F0 "BDR" 50
 F1 "BDR.sch" 50
-F2 "5V" I L 7800 3650 50 
-F3 "EN" I R 8700 3650 50 
-F4 "BAT" I L 7800 4100 50 
+F2 "5V" I L 8100 3650 50 
+F3 "EN" I R 9000 3650 50 
+F4 "BAT" I L 8100 4100 50 
 $EndSheet
 Wire Wire Line
 	6300 4100 7200 4100
@@ -1011,33 +1011,6 @@ Wire Wire Line
 	4150 4200 4150 3250
 Wire Wire Line
 	3700 2550 4300 2550
-Wire Wire Line
-	4700 2550 6600 2550
-Wire Wire Line
-	6300 3650 6600 3650
-Wire Wire Line
-	6600 3650 6600 3250
-$Comp
-L 555timer:Diode D?
-U 1 1 5CFA9EEB
-P 7000 2550
-F 0 "D?" V 7181 2475 60  0000 C CNN
-F 1 "Diode" H 7000 2850 60  0001 C CNN
-F 2 "" H 7000 2150 60  0001 C CNN
-F 3 "" H 7000 2150 60  0001 C CNN
-	1    7000 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6800 2550 6600 2550
-Connection ~ 6600 2550
-Wire Wire Line
-	7350 2550 7500 2550
-Wire Wire Line
-	4150 3250 6600 3250
-Connection ~ 6600 3250
-Wire Wire Line
-	6600 3250 6600 2550
 Connection ~ 15650 4750
 Connection ~ 14400 3650
 Wire Wire Line
@@ -1057,11 +1030,8 @@ F 3 "" H 14400 2550 50  0001 C CNN
 	1    14400 2550
 	1    0    0    -1  
 $EndComp
-Connection ~ 7500 2550
 Wire Wire Line
 	14400 2550 14400 3650
-Wire Wire Line
-	7500 2550 7500 3650
 $Sheet
 S 14550 6750 850  450 
 U 5D0CDEB8
@@ -1139,13 +1109,7 @@ F 3 "~" H 9650 2750 50  0001 C CNN
 $EndComp
 Text Notes 9500 2400 1    50   ~ 0
 Deployment Switch
-Wire Wire Line
-	7500 3650 7800 3650
-Wire Wire Line
-	7800 4100 7200 4100
 Connection ~ 7200 4100
-Wire Wire Line
-	7500 2550 9050 2550
 $Comp
 L CustomSymbols:LTC6995-1 U?
 U 1 1 5D0D29CF
@@ -1213,11 +1177,8 @@ Text Notes 9550 4450 0    50   ~ 0
 86.6k resistor sets timer length to 31 minutes.\nLow tolerance required.
 Wire Wire Line
 	11000 3150 11000 3600
-Connection ~ 11000 3600
 Wire Wire Line
 	11000 3600 10950 3600
-Wire Wire Line
-	10950 3850 11600 3850
 Wire Wire Line
 	11150 4150 11600 4150
 Wire Wire Line
@@ -1225,117 +1186,6 @@ Wire Wire Line
 Wire Wire Line
 	11600 3850 11600 2550
 Connection ~ 11600 3850
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D214D5F
-P 12400 2850
-F 0 "#PWR?" H 12400 2600 50  0001 C CNN
-F 1 "GNDD" H 12404 2695 50  0000 C CNN
-F 2 "" H 12400 2850 50  0001 C CNN
-F 3 "" H 12400 2850 50  0001 C CNN
-	1    12400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D214D67
-P 13400 3050
-F 0 "#PWR?" H 13400 2800 50  0001 C CNN
-F 1 "GNDD" H 13404 2895 50  0000 C CNN
-F 2 "" H 13400 3050 50  0001 C CNN
-F 3 "" H 13400 3050 50  0001 C CNN
-	1    13400 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 2550 11600 2550
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D214D6F
-P 13900 3050
-F 0 "#PWR?" H 13900 2800 50  0001 C CNN
-F 1 "GNDD" H 13904 2895 50  0000 C CNN
-F 2 "" H 13900 3050 50  0001 C CNN
-F 3 "" H 13900 3050 50  0001 C CNN
-	1    13900 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D214D75
-P 13900 2900
-F 0 "C?" H 14015 2946 50  0000 L CNN
-F 1 "150u" H 14015 2855 50  0000 L CNN
-F 2 "" H 13938 2750 50  0001 C CNN
-F 3 "~" H 13900 2900 50  0001 C CNN
-	1    13900 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D214D7D
-P 12100 2850
-F 0 "#PWR?" H 12100 2600 50  0001 C CNN
-F 1 "GNDD" H 12104 2695 50  0000 C CNN
-F 2 "" H 12100 2850 50  0001 C CNN
-F 3 "" H 12100 2850 50  0001 C CNN
-	1    12100 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D214D83
-P 12100 2700
-F 0 "C?" H 12215 2746 50  0000 L CNN
-F 1 "0.1u" H 12215 2655 50  0000 L CNN
-F 2 "" H 12138 2550 50  0001 C CNN
-F 3 "~" H 12100 2700 50  0001 C CNN
-	1    12100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D214D89
-P 13400 2900
-F 0 "R?" H 13470 2946 50  0000 L CNN
-F 1 "R" H 13470 2855 50  0000 L CNN
-F 2 "" V 13330 2900 50  0001 C CNN
-F 3 "~" H 13400 2900 50  0001 C CNN
-	1    13400 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 12100 2550
-Wire Wire Line
-	12100 2550 12600 2550
-NoConn ~ 13400 2650
-NoConn ~ 12600 2650
-$Comp
-L Main-rescue:TPS2557-CustomSymbols U?
-U 1 1 5D214D93
-P 13000 2350
-F 0 "U?" H 13000 2475 50  0000 C CNN
-F 1 "TPS2557" H 13000 2384 50  0000 C CNN
-F 2 "" H 13000 2350 50  0001 C CNN
-F 3 "" H 13000 2350 50  0001 C CNN
-	1    13000 2350
-	1    0    0    -1  
-$EndComp
-Connection ~ 11600 2550
-Wire Wire Line
-	12400 2850 12400 2450
-Wire Wire Line
-	12400 2450 12600 2450
-Wire Wire Line
-	12600 3600 12600 2750
-Wire Wire Line
-	11000 3600 12600 3600
-Wire Wire Line
-	13400 2550 13900 2550
-Wire Wire Line
-	13900 2750 13900 2550
-Connection ~ 13900 2550
-Wire Wire Line
-	13900 2550 14400 2550
 $Comp
 L power:GNDD #PWR?
 U 1 1 5D2A44A9
@@ -1359,4 +1209,72 @@ F 3 "" H 10100 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10100 3850
+Wire Wire Line
+	10950 3850 11600 3850
+$Sheet
+S 12600 2400 800  550 
+U 5D1F22A4
+F0 "InhibitSwitchDiode" 50
+F1 "IdealDiode_4x.sch" 50
+F2 "VDD" I L 12600 2550 50 
+F3 "EN" I L 12600 2800 50 
+F4 "OUT" I R 13400 2550 50 
+$EndSheet
+Wire Wire Line
+	12600 2550 11600 2550
+Connection ~ 11600 2550
+Wire Wire Line
+	12600 2800 12000 2800
+Wire Wire Line
+	12000 2800 12000 3600
+Wire Wire Line
+	12000 3600 11000 3600
+Connection ~ 11000 3600
+Wire Wire Line
+	13400 2550 14400 2550
+Text Notes 12650 3150 0    50   ~ 0
+R_total = 25 mOhm
+$Sheet
+S 6600 2400 800  550 
+U 5D233E42
+F0 "IdealDiodeBDR" 50
+F1 "IdealDiode_4x.sch" 50
+F2 "VDD" I L 6600 2550 50 
+F3 "EN" I L 6600 2800 50 
+F4 "OUT" I R 7400 2550 50 
+$EndSheet
+Text Notes 6650 3150 0    50   ~ 0
+R_total = 25 mOhm
+Wire Wire Line
+	4700 2550 6450 2550
+Wire Wire Line
+	6600 2800 6450 2800
+Wire Wire Line
+	6450 2800 6450 2550
+Connection ~ 6450 2550
+Wire Wire Line
+	6450 2550 6600 2550
+Wire Wire Line
+	6450 2800 6450 3250
+Wire Wire Line
+	6450 3650 6300 3650
+Connection ~ 6450 2800
+Wire Wire Line
+	7400 2550 7600 2550
+Wire Wire Line
+	7200 4100 8100 4100
+Wire Wire Line
+	8100 3650 7600 3650
+Wire Wire Line
+	7600 3650 7600 2550
+Connection ~ 7600 2550
+Wire Wire Line
+	7600 2550 9050 2550
+Text Notes 6050 2150 0    50   ~ 0
+This diode prevents the BDR from powering the BCR
+Wire Wire Line
+	4150 3250 6450 3250
+Connection ~ 6450 3250
+Wire Wire Line
+	6450 3250 6450 3650
 $EndSCHEMATC
