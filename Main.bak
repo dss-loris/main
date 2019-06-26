@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 34
+Sheet 1 36
 Title "Electrical Power System"
 Date "2019-04-25"
 Rev "1.0"
@@ -967,13 +967,13 @@ Connection ~ 7200 4850
 Wire Wire Line
 	7200 4850 7700 4850
 $Sheet
-S 7800 3500 900  750 
+S 8100 3500 900  750 
 U 5CF7185D
 F0 "BDR" 50
 F1 "BDR.sch" 50
-F2 "5V" I L 7800 3650 50 
-F3 "EN" I R 8700 3650 50 
-F4 "BAT" I L 7800 4100 50 
+F2 "5V" I L 8100 3650 50 
+F3 "EN" I R 9000 3650 50 
+F4 "BAT" I L 8100 4100 50 
 $EndSheet
 Wire Wire Line
 	6300 4100 7200 4100
@@ -1011,33 +1011,6 @@ Wire Wire Line
 	4150 4200 4150 3250
 Wire Wire Line
 	3700 2550 4300 2550
-Wire Wire Line
-	4700 2550 6600 2550
-Wire Wire Line
-	6300 3650 6600 3650
-Wire Wire Line
-	6600 3650 6600 3250
-$Comp
-L 555timer:Diode D?
-U 1 1 5CFA9EEB
-P 7000 2550
-F 0 "D?" V 7181 2475 60  0000 C CNN
-F 1 "Diode" H 7000 2850 60  0001 C CNN
-F 2 "" H 7000 2150 60  0001 C CNN
-F 3 "" H 7000 2150 60  0001 C CNN
-	1    7000 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6800 2550 6600 2550
-Connection ~ 6600 2550
-Wire Wire Line
-	7350 2550 7500 2550
-Wire Wire Line
-	4150 3250 6600 3250
-Connection ~ 6600 3250
-Wire Wire Line
-	6600 3250 6600 2550
 Connection ~ 15650 4750
 Connection ~ 14400 3650
 Wire Wire Line
@@ -1057,11 +1030,8 @@ F 3 "" H 14400 2550 50  0001 C CNN
 	1    14400 2550
 	1    0    0    -1  
 $EndComp
-Connection ~ 7500 2550
 Wire Wire Line
 	14400 2550 14400 3650
-Wire Wire Line
-	7500 2550 7500 3650
 $Sheet
 S 14550 6750 850  450 
 U 5D0CDEB8
@@ -1139,13 +1109,7 @@ F 3 "~" H 9650 2750 50  0001 C CNN
 $EndComp
 Text Notes 9500 2400 1    50   ~ 0
 Deployment Switch
-Wire Wire Line
-	7500 3650 7800 3650
-Wire Wire Line
-	7800 4100 7200 4100
 Connection ~ 7200 4100
-Wire Wire Line
-	7500 2550 9050 2550
 $Comp
 L CustomSymbols:LTC6995-1 U?
 U 1 1 5D0D29CF
@@ -1247,155 +1211,70 @@ $EndComp
 Connection ~ 10100 3850
 Wire Wire Line
 	10950 3850 11600 3850
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D13CB57
-P 12900 3900
-F 0 "#PWR?" H 12900 3650 50  0001 C CNN
-F 1 "GNDD" H 12904 3745 50  0000 C CNN
-F 2 "" H 12900 3900 50  0001 C CNN
-F 3 "" H 12900 3900 50  0001 C CNN
-	1    12900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:MAX40200ANS U?
-U 1 1 5D13CB51
-P 12900 3600
-F 0 "U?" H 12900 3967 50  0000 C CNN
-F 1 "MAX40200ANS" H 12900 3876 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 12900 4000 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 12900 4000 50  0001 C CNN
-	1    12900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D133571
-P 12900 2950
-F 0 "#PWR?" H 12900 2700 50  0001 C CNN
-F 1 "GNDD" H 12904 2795 50  0000 C CNN
-F 2 "" H 12900 2950 50  0001 C CNN
-F 3 "" H 12900 2950 50  0001 C CNN
-	1    12900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:MAX40200ANS U?
-U 1 1 5D1320F1
-P 12900 2650
-F 0 "U?" H 12900 3017 50  0000 C CNN
-F 1 "MAX40200ANS" H 12900 2926 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 12900 3050 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 12900 3050 50  0001 C CNN
-	1    12900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D14F857
-P 12900 5850
-F 0 "#PWR?" H 12900 5600 50  0001 C CNN
-F 1 "GNDD" H 12904 5695 50  0000 C CNN
-F 2 "" H 12900 5850 50  0001 C CNN
-F 3 "" H 12900 5850 50  0001 C CNN
-	1    12900 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:MAX40200ANS U?
-U 1 1 5D14F85D
-P 12900 5550
-F 0 "U?" H 12900 5917 50  0000 C CNN
-F 1 "MAX40200ANS" H 12900 5826 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 12900 5950 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 12900 5950 50  0001 C CNN
-	1    12900 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5D14F863
-P 12900 4900
-F 0 "#PWR?" H 12900 4650 50  0001 C CNN
-F 1 "GNDD" H 12904 4745 50  0000 C CNN
-F 2 "" H 12900 4900 50  0001 C CNN
-F 3 "" H 12900 4900 50  0001 C CNN
-	1    12900 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:MAX40200ANS U?
-U 1 1 5D14F869
-P 12900 4600
-F 0 "U?" H 12900 4967 50  0000 C CNN
-F 1 "MAX40200ANS" H 12900 4876 50  0000 C CNN
-F 2 "Package_BGA:WLP-4_0.73x0.73mm_Layout2x2_P0.35mm_Ball0.22mm_Pad0.2mm_NSMD" H 12900 5000 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 12900 5000 50  0001 C CNN
-	1    12900 4600
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 12600 2400 800  550 
+U 5D1F22A4
+F0 "InhibitSwitchDiode" 50
+F1 "IdealDiode_4x.sch" 50
+F2 "VDD" I L 12600 2550 50 
+F3 "EN" I L 12600 2800 50 
+F4 "OUT" I R 13400 2550 50 
+$EndSheet
+Wire Wire Line
+	12600 2550 11600 2550
 Connection ~ 11600 2550
 Wire Wire Line
-	12100 2550 12100 3500
+	12600 2800 12000 2800
 Wire Wire Line
-	12100 5450 12500 5450
+	12000 2800 12000 3600
 Wire Wire Line
-	12500 2550 12100 2550
-Wire Wire Line
-	12100 2550 11600 2550
-Connection ~ 12100 2550
-Wire Wire Line
-	12500 4500 12100 4500
-Connection ~ 12100 4500
-Wire Wire Line
-	12100 4500 12100 5450
-Wire Wire Line
-	12500 3500 12100 3500
-Connection ~ 12100 3500
-Wire Wire Line
-	12100 3500 12100 4500
-Wire Wire Line
-	11000 3600 11900 3600
-Wire Wire Line
-	11900 3600 11900 2750
-Wire Wire Line
-	11900 2750 12500 2750
+	12000 3600 11000 3600
 Connection ~ 11000 3600
 Wire Wire Line
-	11900 5650 12500 5650
-Connection ~ 11900 3600
+	13400 2550 14400 2550
+Text Notes 12650 3150 0    50   ~ 0
+R_total = 25 mOhm
+$Sheet
+S 6600 2400 800  550 
+U 5D233E42
+F0 "IdealDiodeBDR" 50
+F1 "IdealDiode_4x.sch" 50
+F2 "VDD" I L 6600 2550 50 
+F3 "EN" I L 6600 2800 50 
+F4 "OUT" I R 7400 2550 50 
+$EndSheet
+Text Notes 6650 3150 0    50   ~ 0
+R_total = 25 mOhm
 Wire Wire Line
-	12500 4700 11900 4700
-Connection ~ 11900 4700
+	4700 2550 6450 2550
 Wire Wire Line
-	11900 4700 11900 5650
+	6600 2800 6450 2800
 Wire Wire Line
-	12500 3700 11900 3700
+	6450 2800 6450 2550
+Connection ~ 6450 2550
 Wire Wire Line
-	11900 3600 11900 3700
-Connection ~ 11900 3700
+	6450 2550 6600 2550
 Wire Wire Line
-	11900 3700 11900 4700
+	6450 2800 6450 3250
 Wire Wire Line
-	13300 2550 13700 2550
+	6450 3650 6300 3650
+Connection ~ 6450 2800
 Wire Wire Line
-	13700 2550 13700 3500
+	7400 2550 7600 2550
 Wire Wire Line
-	13700 5450 13300 5450
-Connection ~ 13700 2550
+	7200 4100 8100 4100
 Wire Wire Line
-	13700 2550 14400 2550
+	8100 3650 7600 3650
 Wire Wire Line
-	13300 4500 13700 4500
-Connection ~ 13700 4500
+	7600 3650 7600 2550
+Connection ~ 7600 2550
 Wire Wire Line
-	13700 4500 13700 5450
+	7600 2550 9050 2550
+Text Notes 6050 2150 0    50   ~ 0
+This diode prevents the BDR from powering the BCR
 Wire Wire Line
-	13300 3500 13700 3500
-Connection ~ 13700 3500
+	4150 3250 6450 3250
+Connection ~ 6450 3250
 Wire Wire Line
-	13700 3500 13700 4500
-Text Notes 12450 6450 0    50   ~ 0
-Rds_on=100mOhm each\nRds_total = 25mOhm\nMax load current = 2A\nMax diode current = 0.5A
+	6450 3250 6450 3650
 $EndSCHEMATC
