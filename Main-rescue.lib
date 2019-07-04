@@ -252,7 +252,7 @@ ENDDEF
 #
 # Diode-555_timer-rescue
 #
-DEF Diode-555_timer-rescue D 0 40 Y Y 1 F N
+DEF ~Diode-555_timer-rescue D 0 40 Y Y 1 F N
 F0 "D" 150 -250 60 H V C CNN
 F1 "Diode-555_timer-rescue" 0 300 60 H I C CNN
 F2 "" 0 -400 60 H I C CNN
@@ -267,7 +267,7 @@ ENDDEF
 #
 # FET(reversed)-555_timer-rescue
 #
-DEF FET(reversed)-555_timer-rescue D 0 40 Y Y 1 F N
+DEF ~FET(reversed)-555_timer-rescue D 0 40 Y Y 1 F N
 F0 "D" -200 0 60 H V C CNN
 F1 "FET(reversed)-555_timer-rescue" 0 400 60 H I C CNN
 F2 "" -100 0 60 H I C CNN
