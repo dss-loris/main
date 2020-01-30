@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 34
+Sheet 2 57
 Title "Electrical Power System"
 Date "2019-04-25"
 Rev "1.0"
@@ -754,50 +754,6 @@ Text GLabel 4400 2650 0    50   Input ~ 0
 Text GLabel 4400 2800 0    50   Input ~ 0
 -X_03
 $Sheet
-S 4550 3450 900  550 
-U 5CCB70B2
-F0 "SPV1040_20" 50
-F1 "SPV1040.sch" 50
-F2 "PV+" I L 4550 3550 50 
-F3 "PV-" I L 4550 3850 50 
-F4 "V+" I R 5450 3550 50 
-F5 "V-" I R 5450 3850 50 
-$EndSheet
-Wire Wire Line
-	5450 3850 5600 3850
-$Comp
-L Main-rescue:GNDD-power #PWR?
-U 1 1 5CCB70BA
-P 4400 3850
-F 0 "#PWR?" H 4400 3600 50  0001 C CNN
-F 1 "GNDD" H 4404 3695 50  0000 C CNN
-F 2 "" H 4400 3850 50  0001 C CNN
-F 3 "" H 4400 3850 50  0001 C CNN
-	1    4400 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 3850 4550 3850
-Wire Wire Line
-	4550 3550 4400 3550
-Wire Wire Line
-	4400 3550 4400 3700
-Text GLabel 4400 3550 0    50   Input ~ 0
-+X_04
-Text GLabel 4400 3700 0    50   Input ~ 0
--X_04
-$Comp
-L Main-rescue:GNDD-power #PWR?
-U 1 1 5CCB70C5
-P 5600 3850
-F 0 "#PWR?" H 5600 3600 50  0001 C CNN
-F 1 "GNDD" H 5604 3695 50  0000 C CNN
-F 2 "" H 5600 3850 50  0001 C CNN
-F 3 "" H 5600 3850 50  0001 C CNN
-	1    5600 3850
-	1    0    0    -1  
-$EndComp
-$Sheet
 S 4550 4350 900  550 
 U 5CCBF49D
 F0 "SPV1040_21" 50
@@ -990,8 +946,6 @@ V+
 Text Label 5450 1750 0    50   ~ 0
 V+
 Text Label 5450 2650 0    50   ~ 0
-V+
-Text Label 5450 3550 0    50   ~ 0
 V+
 Text Label 3600 3550 0    50   ~ 0
 V+

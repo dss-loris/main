@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Main-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Main-rescue:LTC4002ES8-4.2-Battery_Management U?
+L Battery_Management:LTC4002ES8-4.2 U?
 U 1 1 5CF0E753
 P 4950 4000
 F 0 "U?" H 4950 4581 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:R-Device R?
+L Device:R R?
 U 1 1 5CF0E759
 P 5850 4100
 F 0 "R?" V 5950 4050 50  0000 C CNN
@@ -45,7 +46,7 @@ Connection ~ 5650 4100
 Wire Wire Line
 	5650 4100 5700 4100
 $Comp
-L Main-rescue:C-Device C?
+L Device:C C?
 U 1 1 5CF0E764
 P 5650 4550
 F 0 "C?" H 5765 4596 50  0000 L CNN
@@ -56,7 +57,7 @@ F 3 "~" H 5650 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:L-Device L?
+L Device:L L?
 U 1 1 5CF0E76A
 P 6150 3950
 F 0 "L?" H 6203 3996 50  0000 L CNN
@@ -68,7 +69,7 @@ F 3 "~" H 6150 3950 50  0001 C CNN
 $EndComp
 Connection ~ 6000 4100
 $Comp
-L Main-rescue:Q_PMOS_SDG-Device Q?
+L Device:Q_PMOS_SDG Q?
 U 1 1 5CF0E771
 P 6050 3500
 F 0 "Q?" H 6256 3454 50  0000 L CNN
@@ -90,7 +91,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3500 5850 3800
 $Comp
-L Main-rescue:D_Schottky-Device D?
+L Device:D_Schottky D?
 U 1 1 5CF0E77D
 P 6600 3900
 F 0 "D?" V 6554 3979 50  0000 L CNN
@@ -105,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 4000 3850 4000
 $Comp
-L Main-rescue:C-Device C?
+L Device:C C?
 U 1 1 5CF0E785
 P 3850 4150
 F 0 "C?" H 3965 4196 50  0000 L CNN
@@ -116,7 +117,7 @@ F 3 "~" H 3850 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:R-Device R?
+L Device:R R?
 U 1 1 5CF0E78B
 P 3850 4450
 F 0 "R?" H 3920 4496 50  0000 L CNN
@@ -127,7 +128,7 @@ F 3 "~" H 3850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:C-Device C?
+L Device:C C?
 U 1 1 5CF0E791
 P 6650 3050
 F 0 "C?" H 6765 3096 50  0000 L CNN
@@ -138,7 +139,7 @@ F 3 "~" H 6650 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:C-Device C?
+L Device:C C?
 U 1 1 5CF0E797
 P 7250 3050
 F 0 "C?" H 7365 3096 50  0000 L CNN
@@ -169,7 +170,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3250 6650 3200
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7A8
 P 3850 4600
 F 0 "#PWR?" H 3850 4350 50  0001 C CNN
@@ -180,7 +181,7 @@ F 3 "" H 3850 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7AE
 P 6650 3250
 F 0 "#PWR?" H 6650 3000 50  0001 C CNN
@@ -191,7 +192,7 @@ F 3 "" H 6650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7B4
 P 7250 3250
 F 0 "#PWR?" H 7250 3000 50  0001 C CNN
@@ -204,7 +205,7 @@ $EndComp
 Wire Wire Line
 	5650 4100 5650 4400
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7C3
 P 4950 4400
 F 0 "#PWR?" H 4950 4150 50  0001 C CNN
@@ -215,7 +216,7 @@ F 3 "" H 4950 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7C9
 P 5650 4700
 F 0 "#PWR?" H 5650 4450 50  0001 C CNN
@@ -226,7 +227,7 @@ F 3 "" H 5650 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 5CF0E7D0
 P 6600 4050
 F 0 "#PWR?" H 6600 3800 50  0001 C CNN
