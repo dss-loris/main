@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Main-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 37 37
+Sheet 7 45
 Title ""
 Date ""
 Rev ""
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Temperature:LM73-1 U?
+L Main-rescue:LM73-1-Sensor_Temperature U?
 U 1 1 5D20D70A
 P 3500 2750
 F 0 "U?" H 3450 3450 50  0000 C CNN
@@ -46,7 +45,7 @@ GND
 Text Label 2650 2650 0    50   ~ 0
 Vref
 $Comp
-L power:+5V #PWR?
+L Main-rescue:+5V-power #PWR?
 U 1 1 5D1F30D3
 P 1700 2700
 F 0 "#PWR?" H 1700 2550 50  0001 C CNN
@@ -57,7 +56,7 @@ F 3 "" H 1700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Main-rescue:C-Device C?
 U 1 1 5D1F3804
 P 1700 3050
 F 0 "C?" H 1815 3096 50  0000 L CNN
@@ -70,7 +69,7 @@ $EndComp
 Wire Wire Line
 	1700 3200 1700 3300
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D1F4104
 P 1700 3300
 F 0 "#PWR?" H 1700 3050 50  0001 C CNN
@@ -85,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 2850 4350 3050
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D1F50CA
 P 4350 3050
 F 0 "#PWR?" H 4350 2800 50  0001 C CNN
@@ -104,7 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2650 4900 2650
 $Comp
-L Device:C C?
+L Main-rescue:C-Device C?
 U 1 1 5D1F5549
 P 4900 2950
 F 0 "C?" H 5015 2996 50  0000 L CNN
@@ -115,7 +114,7 @@ F 3 "~" H 4900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Main-rescue:2N3904-Transistor_BJT Q?
 U 1 1 5D1F5D3D
 P 6350 2950
 F 0 "Q?" H 6541 2996 50  0000 L CNN
@@ -141,7 +140,7 @@ Wire Wire Line
 	6550 2650 6550 2950
 Connection ~ 6250 2650
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1F18BB
 P 2400 4400
 F 0 "R?" H 2470 4446 50  0000 L CNN
@@ -152,7 +151,7 @@ F 3 "~" H 2400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1F1951
 P 2400 4900
 F 0 "R?" H 2470 4946 50  0000 L CNN
@@ -165,7 +164,7 @@ $EndComp
 Wire Wire Line
 	2400 5050 2400 5300
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D1F1D83
 P 2400 5300
 F 0 "#PWR?" H 2400 5050 50  0001 C CNN
@@ -176,7 +175,7 @@ F 3 "" H 2400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LT1492 U?
+L Main-rescue:LT1492-Amplifier_Operational U?
 U 1 1 5D1F2936
 P 3650 4750
 F 0 "U?" H 3650 5117 50  0000 C CNN
@@ -204,7 +203,7 @@ V_PTAT
 Wire Wire Line
 	3350 4500 3350 4650
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1F6B8A
 P 3050 4500
 F 0 "R?" V 2843 4500 50  0000 C CNN
@@ -231,7 +230,7 @@ Wire Wire Line
 	3300 4100 3600 4100
 Connection ~ 3300 4400
 $Comp
-L Device:C C?
+L Main-rescue:C-Device C?
 U 1 1 5D1F894B
 P 3750 4100
 F 0 "C?" V 3865 4146 50  0000 L CNN
@@ -242,7 +241,7 @@ F 3 "~" H 3750 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1F89EA
 P 4050 4100
 F 0 "R?" V 3843 4100 50  0000 C CNN
@@ -253,7 +252,7 @@ F 3 "~" H 4050 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1F8A1E
 P 4050 4400
 F 0 "R?" V 3843 4400 50  0000 C CNN
@@ -278,7 +277,7 @@ Connection ~ 4400 4400
 Wire Wire Line
 	4400 4400 4400 4750
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1FAB9D
 P 4750 4750
 F 0 "R?" V 4543 4750 50  0000 C CNN
@@ -291,7 +290,7 @@ $EndComp
 Wire Wire Line
 	4400 4750 4600 4750
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1FCAF1
 P 5550 4400
 F 0 "R?" V 5343 4400 50  0000 C CNN
@@ -309,7 +308,7 @@ Wire Wire Line
 	4900 4750 5000 4750
 Connection ~ 5000 4400
 $Comp
-L Device:C C?
+L Main-rescue:C-Device C?
 U 1 1 5D1FE44D
 P 4700 4000
 F 0 "C?" H 4815 4046 50  0000 L CNN
@@ -322,7 +321,7 @@ $EndComp
 Wire Wire Line
 	4700 3850 5000 3850
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D201048
 P 4700 4150
 F 0 "#PWR?" H 4700 3900 50  0001 C CNN
@@ -335,7 +334,7 @@ $EndComp
 Wire Wire Line
 	5000 3850 5000 4400
 $Comp
-L Amplifier_Operational:LM6171D U?
+L Main-rescue:LM6171D-Amplifier_Operational U?
 U 1 1 5D1F6AA8
 P 6450 4500
 F 0 "U?" H 6450 4022 50  0000 C CNN
@@ -350,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4200 6600 4200
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D1F9792
 P 6600 4200
 F 0 "#PWR?" H 6600 3950 50  0001 C CNN
@@ -367,7 +366,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4900 6700 4800
 $Comp
-L power:+5V #PWR?
+L Main-rescue:+5V-power #PWR?
 U 1 1 5D1FA1DD
 P 6700 4800
 F 0 "#PWR?" H 6700 4650 50  0001 C CNN
@@ -384,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5000 6150 5000
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1FBD9D
 P 6000 5000
 F 0 "R?" V 5793 5000 50  0000 C CNN
@@ -395,7 +394,7 @@ F 3 "~" H 6000 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D1FD45A
 P 5500 5000
 F 0 "R?" V 5293 5000 50  0000 C CNN
@@ -446,7 +445,7 @@ Wire Wire Line
 Text GLabel 7100 1800 2    50   Input ~ 0
 Vcc
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D211CC9
 P 7050 2950
 F 0 "R?" H 7120 2996 50  0000 L CNN
@@ -457,7 +456,7 @@ F 3 "~" H 7050 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pspice:MPMOS M?
+L Main-rescue:MPMOS-pspice M?
 U 1 1 5D21272A
 P 7150 2250
 F 0 "M?" H 7437 2296 50  0000 L CNN
@@ -486,7 +485,7 @@ Connection ~ 6950 2050
 Wire Wire Line
 	7050 3100 7050 3450
 $Comp
-L power:GND #PWR?
+L Main-rescue:GND-power #PWR?
 U 1 1 5D21E8EE
 P 7050 3450
 F 0 "#PWR?" H 7050 3200 50  0001 C CNN

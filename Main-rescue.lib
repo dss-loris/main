@@ -274,7 +274,7 @@ ENDDEF
 #
 # Diode-555_timer-rescue
 #
-DEF Diode-555_timer-rescue D 0 40 Y Y 1 F N
+DEF ~Diode-555_timer-rescue D 0 40 Y Y 1 F N
 F0 "D" 150 -250 60 H V C CNN
 F1 "Diode-555_timer-rescue" 0 300 60 H I C CNN
 F2 "" 0 -400 60 H I C CNN
@@ -289,7 +289,7 @@ ENDDEF
 #
 # FET(reversed)-555_timer-rescue
 #
-DEF FET(reversed)-555_timer-rescue D 0 40 Y Y 1 F N
+DEF ~FET(reversed)-555_timer-rescue D 0 40 Y Y 1 F N
 F0 "D" -200 0 60 H V C CNN
 F1 "FET(reversed)-555_timer-rescue" 0 400 60 H I C CNN
 F2 "" -100 0 60 H I C CNN
@@ -644,6 +644,24 @@ X ~CHRG~ 5 -500 200 100 R 50 50 1 1 C
 X BAT 6 500 -100 100 L 50 50 1 1 I
 X SENSE 7 500 0 100 L 50 50 1 1 I
 X NTC 8 -500 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTC6995-1
+#
+DEF LTC6995-1 U 0 40 Y Y 1 F N
+F0 "U" 0 -550 50 H V C CNN
+F1 "LTC6995-1" 0 -450 50 H V C CNN
+F2 "" 0 -550 50 H I C CNN
+F3 "" 0 -550 50 H I C CNN
+DRAW
+S -300 450 300 -400 0 1 0 N
+X RST 1 400 -300 100 L 50 50 1 1 I
+X GND 2 -400 -300 100 R 50 50 1 1 I
+X SET 3 400 50 100 L 50 50 1 1 I
+X DIV 4 -400 50 100 R 50 50 1 1 I
+X V+ 5 -400 350 100 R 50 50 1 1 I
+X OUT 6 400 350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

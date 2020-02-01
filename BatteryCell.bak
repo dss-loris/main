@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Main-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 37
+Sheet 30 45
 Title ""
 Date ""
 Rev ""
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery_Cell BT?
+L Main-rescue:Battery_Cell-Device BT?
 U 1 1 5D087B3A
 P 7050 4100
 AR Path="/5D087B3A" Ref="BT?"  Part="1" 
@@ -31,7 +30,7 @@ F 3 "~" V 7050 4160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Management:BQ297xy U?
+L Main-rescue:BQ297xy-Battery_Management U?
 U 1 1 5D087B48
 P 5700 3600
 AR Path="/5D087B48" Ref="U?"  Part="1" 
@@ -53,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4450 5450 4450
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D087B60
 P 6700 3500
 AR Path="/5D087B60" Ref="R?"  Part="1" 
@@ -73,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3500 7050 3500
 $Comp
-L Device:C C?
+L Main-rescue:C-Device C?
 U 1 1 5D087B69
 P 6400 3850
 AR Path="/5D087B69" Ref="C?"  Part="1" 
@@ -106,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3150 4050 3600
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5D087B7B
 P 4050 3750
 AR Path="/5D087B7B" Ref="R?"  Part="1" 
@@ -126,7 +125,7 @@ Cell+
 Text HLabel 4050 4450 0    50   Input ~ 0
 Cell-
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5CF617A0
 P 5450 4300
 AR Path="/5CF617A0" Ref="R?"  Part="1" 
@@ -154,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3900 4050 4450
 $Comp
-L Device:R R?
+L Main-rescue:R-Device R?
 U 1 1 5CF6AE03
 P 4400 4300
 AR Path="/5CF6AE03" Ref="R?"  Part="1" 
@@ -195,9 +194,13 @@ Rds_on = 25 milliOhm each
 Text Notes 4450 5050 0    50   ~ 0
 Overcurrent triggers at 1.8A
 $Comp
-L Transistor_FET:CSD16301Q2 Q?
+L Main-rescue:CSD16301Q2-Transistor_FET Q?
 U 1 1 5D0458C0
 P 4750 4350
+AR Path="/5D07F3FC/5D0458C0" Ref="Q?"  Part="1" 
+AR Path="/5D0A75A0/5D0458C0" Ref="Q?"  Part="1" 
+AR Path="/5D0B1FBC/5D0458C0" Ref="Q?"  Part="1" 
+AR Path="/5D0BC9BA/5D0458C0" Ref="Q?"  Part="1" 
 F 0 "Q?" V 5001 4350 50  0000 C CNN
 F 1 "CSD16301Q2" V 5092 4350 50  0000 C CNN
 F 2 "Package_SON:Texas_DQK" H 4950 4275 50  0001 L CIN
@@ -207,9 +210,13 @@ F 3 "http://www.ti.com/lit/ds/symlink/csd16301q2.pdf" V 4750 4350 50  0001 L CNN
 $EndComp
 Connection ~ 5450 4450
 $Comp
-L Transistor_FET:CSD16301Q2 Q?
+L Main-rescue:CSD16301Q2-Transistor_FET Q?
 U 1 1 5D04731F
 P 5150 4350
+AR Path="/5D07F3FC/5D04731F" Ref="Q?"  Part="1" 
+AR Path="/5D0A75A0/5D04731F" Ref="Q?"  Part="1" 
+AR Path="/5D0B1FBC/5D04731F" Ref="Q?"  Part="1" 
+AR Path="/5D0BC9BA/5D04731F" Ref="Q?"  Part="1" 
 F 0 "Q?" V 5401 4350 50  0000 C CNN
 F 1 "CSD16301Q2" V 5600 4350 50  0000 C CNN
 F 2 "Package_SON:Texas_DQK" H 5350 4275 50  0001 L CIN
@@ -221,4 +228,6 @@ Wire Wire Line
 	5450 4450 5350 4450
 Wire Wire Line
 	7050 3500 7050 3900
+Text Notes 5500 3050 0    50   ~ 0
+Use BQ29709\nOVP: 4.325V\nUVP: 2.5V
 $EndSCHEMATC
