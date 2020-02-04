@@ -81,17 +81,6 @@ F 3 "~" H 3250 4100 50  0001 C CNN
 	1    3250 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Main-rescue:2N3904-Transistor_BJT Q?
-U 1 1 5D1F5D3D
-P 4700 4100
-F 0 "Q?" H 4891 4146 50  0000 L CNN
-F 1 "PZT3904" H 4891 4055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4900 4025 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  0001 L CNN
-	1    4700 4100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 4300 4600 4450
 Wire Wire Line
@@ -268,8 +257,6 @@ F 3 "~" H 5950 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 1500 5650 1500
-Text GLabel 1450 1800 0    50   Input ~ 0
-Vref
 Wire Wire Line
 	900  750  900  850 
 Connection ~ 900  850 
@@ -343,8 +330,6 @@ F 3 "" H 1900 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1800 1700 1800
-Wire Wire Line
 	2000 1800 2300 1800
 Connection ~ 2300 1800
 Wire Wire Line
@@ -397,8 +382,6 @@ Wire Wire Line
 	5650 850  5800 850 
 Wire Wire Line
 	6950 1600 7750 1600
-Text Label 10300 3600 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	1400 3600 600  3600
 Text Label 600  3600 0    50   ~ 0
@@ -517,8 +500,6 @@ Wire Wire Line
 	6550 2350 6950 2350
 Wire Wire Line
 	6950 2350 6950 1600
-Text Label 6100 3250 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	5550 3250 6100 3250
 Text Label 2400 1600 0    50   ~ 0
@@ -570,17 +551,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 6200 50  0001 C CNN
 F 3 "~" H 3250 6350 50  0001 C CNN
 	1    3250 6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L Main-rescue:2N3904-Transistor_BJT Q?
-U 1 1 5E560E1B
-P 4700 6350
-F 0 "Q?" H 4891 6396 50  0000 L CNN
-F 1 "PZT3904" H 4891 6305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4900 6275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  0001 L CNN
-	1    4700 6350
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 6550 4600 6700
@@ -655,10 +625,6 @@ F 3 "" H 1900 5700 50  0001 C CNN
 	1    1900 5700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 5850 600  5850
-Text Label 600  5850 0    50   ~ 0
-LTC2997_Vref_2
 $Comp
 L Device:D_Schottky D?
 U 1 1 5E560E4A
@@ -718,8 +684,6 @@ Wire Wire Line
 Connection ~ 2750 7300
 Wire Wire Line
 	2750 7300 2600 7300
-Text Label 6100 5500 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	5550 5500 6100 5500
 Text Label 2750 5850 2    50   ~ 0
@@ -741,45 +705,100 @@ Wire Wire Line
 $Comp
 L 74xGxx:74LVC1G32 U?
 U 1 1 5E56CF68
-P 7950 3550
-F 0 "U?" H 7925 3817 50  0000 C CNN
-F 1 "74LVC1G32" H 7925 3726 50  0000 C CNN
-F 2 "" H 7950 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7950 3550 50  0001 C CNN
-	1    7950 3550
-	1    0    0    -1  
+P 9550 3700
+F 0 "U?" H 9525 3967 50  0000 C CNN
+F 1 "74LVC1G32" H 9525 3876 50  0000 C CNN
+F 2 "" H 9550 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9550 3700 50  0001 C CNN
+	1    9550 3700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74AHC1G08 U?
 U 1 1 5E56DEF1
-P 9500 3600
-F 0 "U?" H 9475 3867 50  0000 C CNN
-F 1 "74AHC1G08" H 9475 3776 50  0000 C CNN
-F 2 "" H 9500 3600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 3600 50  0001 C CNN
-	1    9500 3600
-	1    0    0    -1  
+P 8450 3750
+F 0 "U?" H 8425 4017 50  0000 C CNN
+F 1 "74AHC1G08" H 8425 3926 50  0000 C CNN
+F 2 "" H 8450 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3600 10300 3600
-Text Label 7150 3500 0    50   ~ 0
+	8200 3750 7900 3750
+Text Label 10350 3650 2    50   ~ 0
 Vptat_1
-Text Label 7150 3600 0    50   ~ 0
+Text Label 10350 3750 2    50   ~ 0
 Vptat_2
 Wire Wire Line
-	7150 3500 7650 3500
+	10350 3650 9850 3650
 Wire Wire Line
-	7650 3600 7150 3600
+	9850 3750 10350 3750
 Wire Wire Line
-	9200 3650 9100 3650
+	8750 3800 8850 3800
 Wire Wire Line
-	9100 3650 9100 3800
-Text GLabel 8900 3800 0    50   Output ~ 0
+	8850 3800 8850 3950
+Text GLabel 9050 3950 2    50   Output ~ 0
 OCB_Heater_EN
 Wire Wire Line
-	8900 3800 9100 3800
-Wire Wire Line
-	8200 3550 9200 3550
-Text Notes 7050 6400 0    50   ~ 0
+	9050 3950 8850 3950
+Text Notes 4700 7700 0    50   ~ 0
 NOTES:\n1.) See application not from LTC2997 datasheet. Fig 11\n2.) LTC2997 can run with Vcc of 2.5V to 5.5V\n3.) Vref is output voltgae of 1.8V\n4.) More heaters/sensors can be added
+Text Label 7750 1600 2    50   ~ 0
+Heater_PWM
+Text Label 1000 1800 0    50   ~ 0
+LTC2997_Vref_1
+Wire Wire Line
+	1000 1800 1700 1800
+NoConn ~ 1400 5850
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E3D63BD
+P 4700 6350
+F 0 "Q?" H 4891 6396 50  0000 L CNN
+F 1 "MMBT3904" H 4891 6305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  0001 L CNN
+	1    4700 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E3E16A3
+P 4700 4100
+F 0 "Q?" H 4891 4146 50  0000 L CNN
+F 1 "MMBT3904" H 4891 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 4025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  0001 L CNN
+	1    4700 4100
+	-1   0    0    -1  
+$EndComp
+Text Notes 7000 6500 0    50   ~ 0
+To Do:\n1.) How many sensors do we want? can they be configured to use the one oscillator\n2.) Need to create new board for the schematic. (this will be the battery pack)\n3.) Heater will only drive if Vptat_1 is high. Should we just use the one sensor?\n
+Wire Wire Line
+	9300 3700 8750 3700
+$Comp
+L 74xGxx:74AUC1G126 U?
+U 1 1 5E3EB5FA
+P 7900 4150
+F 0 "U?" H 7875 3975 50  0000 C CNN
+F 1 "74AUC1G126" H 7875 3884 50  0000 C CNN
+F 2 "" H 7900 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7900 4150 50  0001 C CNN
+	1    7900 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3950 7900 3750
+Text Label 8700 4150 2    50   ~ 0
+Heater_PWM
+Wire Wire Line
+	8200 4150 8700 4150
+Wire Wire Line
+	6100 4150 7650 4150
+Connection ~ 6100 4150
+Wire Wire Line
+	6100 4150 6100 5500
+Wire Wire Line
+	6100 3250 6100 4150
 $EndSCHEMATC

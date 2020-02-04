@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Main-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 7 44
 Title ""
 Date ""
 Rev ""
@@ -79,17 +80,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 3950 50  0001 C CNN
 F 3 "~" H 3250 4100 50  0001 C CNN
 	1    3250 4100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Main-rescue:2N3904-Transistor_BJT Q?
-U 1 1 5D1F5D3D
-P 4700 4100
-F 0 "Q?" H 4891 4146 50  0000 L CNN
-F 1 "PZT3904" H 4891 4055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4900 4025 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  0001 L CNN
-	1    4700 4100
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 4300 4600 4450
@@ -267,8 +257,6 @@ F 3 "~" H 5950 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 1500 5650 1500
-Text GLabel 1450 1800 0    50   Input ~ 0
-Vref
 Wire Wire Line
 	900  750  900  850 
 Connection ~ 900  850 
@@ -329,9 +317,11 @@ F 3 "" H 5250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L batteryHeater:LTC2997H U?
+L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E4295DF
 P 1900 3450
+AR Path="/5E4295DF" Ref="U?"  Part="1" 
+AR Path="/5D20C8DB/5E4295DF" Ref="U?"  Part="1" 
 F 0 "U?" H 1875 3565 50  0000 C CNN
 F 1 "LTC2997H" H 1875 3474 50  0000 C CNN
 F 2 "" H 1900 3450 50  0001 C CNN
@@ -339,8 +329,6 @@ F 3 "" H 1900 3450 50  0001 C CNN
 	1    1900 3450
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 1800 1700 1800
 Wire Wire Line
 	2000 1800 2300 1800
 Connection ~ 2300 1800
@@ -394,8 +382,6 @@ Wire Wire Line
 	5650 850  5800 850 
 Wire Wire Line
 	6950 1600 7750 1600
-Text Label 10300 3600 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	1400 3600 600  3600
 Text Label 600  3600 0    50   ~ 0
@@ -514,8 +500,6 @@ Wire Wire Line
 	6550 2350 6950 2350
 Wire Wire Line
 	6950 2350 6950 1600
-Text Label 6100 3250 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	5550 3250 6100 3250
 Text Label 2400 1600 0    50   ~ 0
@@ -567,17 +551,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 6200 50  0001 C CNN
 F 3 "~" H 3250 6350 50  0001 C CNN
 	1    3250 6350
 	1    0    0    -1  
-$EndComp
-$Comp
-L Main-rescue:2N3904-Transistor_BJT Q?
-U 1 1 5E560E1B
-P 4700 6350
-F 0 "Q?" H 4891 6396 50  0000 L CNN
-F 1 "PZT3904" H 4891 6305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4900 6275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  0001 L CNN
-	1    4700 6350
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 6550 4600 6700
@@ -640,9 +613,11 @@ F 3 "" H 5250 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L batteryHeater:LTC2997H U?
+L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E560E42
 P 1900 5700
+AR Path="/5E560E42" Ref="U?"  Part="1" 
+AR Path="/5D20C8DB/5E560E42" Ref="U?"  Part="1" 
 F 0 "U?" H 1875 5815 50  0000 C CNN
 F 1 "LTC2997H" H 1875 5724 50  0000 C CNN
 F 2 "" H 1900 5700 50  0001 C CNN
@@ -650,10 +625,6 @@ F 3 "" H 1900 5700 50  0001 C CNN
 	1    1900 5700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 5850 600  5850
-Text Label 600  5850 0    50   ~ 0
-LTC2997_Vref_2
 $Comp
 L Device:D_Schottky D?
 U 1 1 5E560E4A
@@ -713,8 +684,6 @@ Wire Wire Line
 Connection ~ 2750 7300
 Wire Wire Line
 	2750 7300 2600 7300
-Text Label 6100 5500 2    50   ~ 0
-Heater_PWM
 Wire Wire Line
 	5550 5500 6100 5500
 Text Label 2750 5850 2    50   ~ 0
@@ -747,16 +716,16 @@ $EndComp
 $Comp
 L 74xGxx:74AHC1G08 U?
 U 1 1 5E56DEF1
-P 9500 3600
-F 0 "U?" H 9475 3867 50  0000 C CNN
-F 1 "74AHC1G08" H 9475 3776 50  0000 C CNN
-F 2 "" H 9500 3600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9500 3600 50  0001 C CNN
-	1    9500 3600
+P 9050 3600
+F 0 "U?" H 9025 3867 50  0000 C CNN
+F 1 "74AHC1G08" H 9025 3776 50  0000 C CNN
+F 2 "" H 9050 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9050 3600 50  0001 C CNN
+	1    9050 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3600 10300 3600
+	9300 3600 9850 3600
 Text Label 7150 3500 0    50   ~ 0
 Vptat_1
 Text Label 7150 3600 0    50   ~ 0
@@ -766,15 +735,46 @@ Wire Wire Line
 Wire Wire Line
 	7650 3600 7150 3600
 Wire Wire Line
-	9200 3650 9100 3650
+	8750 3650 8650 3650
 Wire Wire Line
-	9100 3650 9100 3800
-Text GLabel 8900 3800 0    50   Output ~ 0
+	8650 3650 8650 3800
+Text GLabel 8450 3800 0    50   Output ~ 0
 OCB_Heater_EN
 Wire Wire Line
-	8900 3800 9100 3800
-Wire Wire Line
-	8200 3550 9200 3550
-Text Notes 7050 6400 0    50   ~ 0
+	8450 3800 8650 3800
+Text Notes 4700 7700 0    50   ~ 0
 NOTES:\n1.) See application not from LTC2997 datasheet. Fig 11\n2.) LTC2997 can run with Vcc of 2.5V to 5.5V\n3.) Vref is output voltgae of 1.8V\n4.) More heaters/sensors can be added
+Text Label 7750 1600 2    50   ~ 0
+Heater_PWM
+Text Label 1000 1800 0    50   ~ 0
+LTC2997_Vref_1
+Wire Wire Line
+	1000 1800 1700 1800
+NoConn ~ 1400 5850
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E3D63BD
+P 4700 6350
+F 0 "Q?" H 4891 6396 50  0000 L CNN
+F 1 "MMBT3904" H 4891 6305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 6275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  0001 L CNN
+	1    4700 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5E3E16A3
+P 4700 4100
+F 0 "Q?" H 4891 4146 50  0000 L CNN
+F 1 "MMBT3904" H 4891 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 4025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  0001 L CNN
+	1    4700 4100
+	-1   0    0    -1  
+$EndComp
+Text Notes 7000 6500 0    50   ~ 0
+To Do:\n1.) How many sensors do we want? can they be configured to use the one oscillator\n2.) Need to create new board for the schematic. (this will be the battery pack)\n3.) Heater will only drive if Vptat_1 is high. Should we just use the one sensor?\n
+Wire Wire Line
+	8200 3550 8750 3550
 $EndSCHEMATC
