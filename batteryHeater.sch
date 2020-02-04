@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Main-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 7 44
 Title ""
 Date ""
 Rev ""
@@ -329,9 +330,11 @@ F 3 "" H 5250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L batteryHeater:LTC2997H U?
+L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E4295DF
 P 1900 3450
+AR Path="/5E4295DF" Ref="U?"  Part="1" 
+AR Path="/5D20C8DB/5E4295DF" Ref="U?"  Part="1" 
 F 0 "U?" H 1875 3565 50  0000 C CNN
 F 1 "LTC2997H" H 1875 3474 50  0000 C CNN
 F 2 "" H 1900 3450 50  0001 C CNN
@@ -640,9 +643,11 @@ F 3 "" H 5250 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L batteryHeater:LTC2997H U?
+L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E560E42
 P 1900 5700
+AR Path="/5E560E42" Ref="U?"  Part="1" 
+AR Path="/5D20C8DB/5E560E42" Ref="U?"  Part="1" 
 F 0 "U?" H 1875 5815 50  0000 C CNN
 F 1 "LTC2997H" H 1875 5724 50  0000 C CNN
 F 2 "" H 1900 5700 50  0001 C CNN

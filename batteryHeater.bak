@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Main-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 44
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -776,4 +775,6 @@ Wire Wire Line
 	8900 3800 9100 3800
 Wire Wire Line
 	8200 3550 9200 3550
+Text Notes 7050 6400 0    50   ~ 0
+NOTES:\n1.) See application not from LTC2997 datasheet. Fig 11\n2.) LTC2997 can run with Vcc of 2.5V to 5.5V\n3.) Vref is output voltgae of 1.8V\n4.) More heaters/sensors can be added
 $EndSCHEMATC
