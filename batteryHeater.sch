@@ -68,8 +68,6 @@ Wire Wire Line
 	3250 4450 3250 4250
 Wire Wire Line
 	3250 3800 3250 3950
-Wire Wire Line
-	2450 3800 2900 3800
 $Comp
 L Main-rescue:C-Device C?
 U 1 1 5D1F5549
@@ -100,7 +98,7 @@ L Main-rescue:R-Device R?
 U 1 1 5D1F18BB
 P 1850 1800
 F 0 "R?" H 1920 1846 50  0000 L CNN
-F 1 "22k" H 1920 1755 50  0000 L CNN
+F 1 "13k" V 1850 1700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 1800 50  0001 C CNN
 F 3 "~" H 1850 1800 50  0001 C CNN
 	1    1850 1800
@@ -111,7 +109,7 @@ L Main-rescue:R-Device R?
 U 1 1 5D1F1951
 P 2300 2150
 F 0 "R?" H 2370 2196 50  0000 L CNN
-F 1 "75k" H 2370 2105 50  0000 L CNN
+F 1 "20k" H 2370 2105 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2230 2150 50  0001 C CNN
 F 3 "~" H 2300 2150 50  0001 C CNN
 	1    2300 2150
@@ -386,28 +384,6 @@ Wire Wire Line
 	1400 3600 600  3600
 Text Label 600  3600 0    50   ~ 0
 LTC2997_Vref_1
-$Comp
-L Device:D_Schottky D?
-U 1 1 5E4D9DA5
-P 2900 4800
-F 0 "D?" V 2854 4880 50  0000 L CNN
-F 1 "PESD5Z6.0" V 2945 4880 50  0000 L CNN
-F 2 "" H 2900 4800 50  0001 C CNN
-F 3 "" H 2900 4800 50  0001 C CNN
-	1    2900 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5E4DAD1B
-P 2600 4800
-F 0 "D?" V 2554 4880 50  0000 L CNN
-F 1 "PESD5Z6.0" V 2645 4880 50  0000 L CNN
-F 2 "" H 2600 4800 50  0001 C CNN
-F 3 "" H 2600 4800 50  0001 C CNN
-	1    2600 4800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2600 3700 2450 3700
 Wire Wire Line
@@ -415,36 +391,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4450 2600 4450
 Connection ~ 3250 4450
-Connection ~ 2600 4450
-Wire Wire Line
-	2600 4450 2600 4650
-Wire Wire Line
-	2900 4650 2900 3800
-Connection ~ 2900 3800
-Wire Wire Line
-	2900 3800 3250 3800
-Wire Wire Line
-	2900 4950 2900 5050
-Wire Wire Line
-	2900 5050 2750 5050
-Wire Wire Line
-	2600 5050 2600 4950
-$Comp
-L Main-rescue:GND-power #PWR?
-U 1 1 5E4EB388
-P 2750 5150
-F 0 "#PWR?" H 2750 4900 50  0001 C CNN
-F 1 "GND" H 2755 4977 50  0000 C CNN
-F 2 "" H 2750 5150 50  0001 C CNN
-F 3 "" H 2750 5150 50  0001 C CNN
-	1    2750 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 5150 2750 5050
-Connection ~ 2750 5050
-Wire Wire Line
-	2750 5050 2600 5050
 $Comp
 L Main-rescue:R-Device R?
 U 1 1 5D1FCAF1
@@ -539,8 +485,6 @@ Wire Wire Line
 	3250 6700 3250 6500
 Wire Wire Line
 	3250 6050 3250 6200
-Wire Wire Line
-	2450 6050 2900 6050
 $Comp
 L Main-rescue:C-Device C?
 U 1 1 5E560E15
@@ -625,28 +569,6 @@ F 3 "" H 1900 5700 50  0001 C CNN
 	1    1900 5700
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5E560E4A
-P 2900 7050
-F 0 "D?" V 2854 7130 50  0000 L CNN
-F 1 "PESD5Z6.0" V 2945 7130 50  0000 L CNN
-F 2 "" H 2900 7050 50  0001 C CNN
-F 3 "" H 2900 7050 50  0001 C CNN
-	1    2900 7050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 5E560E50
-P 2600 7050
-F 0 "D?" V 2554 7130 50  0000 L CNN
-F 1 "PESD5Z6.0" V 2645 7130 50  0000 L CNN
-F 2 "" H 2600 7050 50  0001 C CNN
-F 3 "" H 2600 7050 50  0001 C CNN
-	1    2600 7050
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2600 5950 2450 5950
 Wire Wire Line
@@ -654,36 +576,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 6700 2600 6700
 Connection ~ 3250 6700
-Connection ~ 2600 6700
-Wire Wire Line
-	2600 6700 2600 6900
-Wire Wire Line
-	2900 6900 2900 6050
-Connection ~ 2900 6050
-Wire Wire Line
-	2900 6050 3250 6050
-Wire Wire Line
-	2900 7200 2900 7300
-Wire Wire Line
-	2900 7300 2750 7300
-Wire Wire Line
-	2600 7300 2600 7200
-$Comp
-L Main-rescue:GND-power #PWR?
-U 1 1 5E560E62
-P 2750 7400
-F 0 "#PWR?" H 2750 7150 50  0001 C CNN
-F 1 "GND" H 2755 7227 50  0000 C CNN
-F 2 "" H 2750 7400 50  0001 C CNN
-F 3 "" H 2750 7400 50  0001 C CNN
-	1    2750 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 7400 2750 7300
-Connection ~ 2750 7300
-Wire Wire Line
-	2750 7300 2600 7300
 Wire Wire Line
 	5550 5500 6100 5500
 Text Label 2750 5850 2    50   ~ 0
@@ -774,7 +666,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  000
 	-1   0    0    -1  
 $EndComp
 Text Notes 7000 6500 0    50   ~ 0
-To Do:\n1.) How many sensors do we want? can they be configured to use the one oscillator\n2.) Need to create new board for the schematic. (this will be the battery pack)\n3.) Heater will only drive if Vptat_1 is high. Should we just use the one sensor?\n
+To Do:\n1.) How many sensors do we want? can they be configured to use the one oscillator\n2.) Need to create new board for the schematic. (this will be the battery pack)\n3.) Heater will only drive if Vptat_1 is high. Should we just use the one sensor?\n4.) Set Vref powered voltage divide to react to Vptat (5deg celsius?)\n5.) Calculate DUTY CYCLE for PWN signal\n6.) Add comparator for the two sensors
 Wire Wire Line
 	9300 3700 8750 3700
 $Comp
@@ -801,4 +693,12 @@ Wire Wire Line
 	6100 4150 6100 5500
 Wire Wire Line
 	6100 3250 6100 4150
+Text Notes 1300 1950 0    50   ~ 0
+Vtarget = 1.09V for 0C
+Text Label 2400 1800 0    50   ~ 0
+VTARGET
+Wire Wire Line
+	2450 3800 3250 3800
+Wire Wire Line
+	2450 6050 3250 6050
 $EndSCHEMATC
