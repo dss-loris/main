@@ -1427,12 +1427,9 @@ F 3 "" H 2100 7300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 7300 2100 7050
-Connection ~ 6300 2150
 Connection ~ 9300 5650
 Wire Wire Line
 	9300 2150 9300 5650
-Wire Wire Line
-	6300 2150 9300 2150
 $Comp
 L pspice:MNMOS M?
 U 1 1 5E501AA1
@@ -1503,7 +1500,6 @@ F 3 "" H 10000 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 2150 9600 2150
-Connection ~ 9300 2150
 $Comp
 L Device:R R?
 U 1 1 5E795312
@@ -2373,4 +2369,29 @@ Wire Wire Line
 	13600 3950 13600 3850
 Text Notes 12250 2700 0    50   ~ 0
 30 Minute Timer
+Wire Wire Line
+	7950 2000 7950 1900
+Wire Wire Line
+	7750 2000 7750 1900
+$Comp
+L Main-rescue:R_Shunt-Device R?
+U 1 1 5E5897E1
+P 7850 2150
+F 0 "R?" V 7717 2150 50  0000 C CNN
+F 1 "TBD" V 7626 2150 50  0000 C CNN
+F 2 "" V 7780 2150 50  0001 C CNN
+F 3 "~" H 7850 2150 50  0001 C CNN
+	1    7850 2150
+	0    -1   -1   0   
+$EndComp
+Text Label 7950 1900 1    50   ~ 0
+Ipv-
+Text Label 7750 1900 1    50   ~ 0
+Ipv+
+Wire Wire Line
+	6300 2150 7650 2150
+Connection ~ 6300 2150
+Wire Wire Line
+	8050 2150 9300 2150
+Connection ~ 9300 2150
 $EndSCHEMATC
