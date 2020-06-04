@@ -59,6 +59,8 @@ AR Path="/5E897F4F/5FB439D2" Ref="SC?"  Part="1"
 AR Path="/5E897F53/5FB439D2" Ref="SC?"  Part="1" 
 AR Path="/5E84EB4F/5FB439D2" Ref="SC?"  Part="1" 
 AR Path="/5E84EB53/5FB439D2" Ref="SC?"  Part="1" 
+AR Path="/5E81CCF3/5FB439D2" Ref="SC?"  Part="1" 
+AR Path="/5E800F07/5FB439D2" Ref="SC?"  Part="1" 
 F 0 "SC?" H 958 3221 50  0000 L CNN
 F 1 "Solar_Cell" H 958 3130 50  0000 L CNN
 F 2 "" V 850 3185 50  0001 C CNN
@@ -151,6 +153,8 @@ AR Path="/5E897F4F/5FB439E4" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB439E4" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB439E4" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB439E4" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB439E4" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB439E4" Ref="R?"  Part="1" 
 F 0 "R?" H 4770 3121 50  0000 L CNN
 F 1 "330k" H 4770 3030 50  0000 L CNN
 F 2 "" V 4630 3075 50  0001 C CNN
@@ -223,6 +227,8 @@ AR Path="/5E897F4F/5FB439EB" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB439EB" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB439EB" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB439EB" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB439EB" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB439EB" Ref="R?"  Part="1" 
 F 0 "R?" H 4770 2621 50  0000 L CNN
 F 1 "768k" H 4770 2530 50  0000 L CNN
 F 2 "" V 4630 2575 50  0001 C CNN
@@ -319,6 +325,8 @@ AR Path="/5E897F4F/5FB43A00" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB43A00" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A00" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB43A00" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A00" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB43A00" Ref="C?"  Part="1" 
 F 0 "C?" H 4000 3125 50  0000 L CNN
 F 1 "1n" H 4000 3025 50  0000 L CNN
 F 2 "" H 4288 2925 50  0001 C CNN
@@ -408,6 +416,8 @@ AR Path="/5E897F4F/5FB43A10" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB43A10" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A10" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB43A10" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A10" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB43A10" Ref="C?"  Part="1" 
 F 0 "C?" H 2300 3125 50  0000 L CNN
 F 1 "1n" H 2300 3025 50  0000 L CNN
 F 2 "" H 2588 2925 50  0001 C CNN
@@ -503,6 +513,8 @@ AR Path="/5E897F4F/5FB43A23" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB43A23" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A23" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB43A23" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A23" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB43A23" Ref="C?"  Part="1" 
 F 0 "C?" H 5315 3121 50  0000 L CNN
 F 1 "100u" H 5315 3030 50  0000 L CNN
 F 2 "" H 5238 2925 50  0001 C CNN
@@ -575,6 +587,8 @@ AR Path="/5E897F4F/5FB43A29" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB43A29" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A29" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB43A29" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A29" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB43A29" Ref="C?"  Part="1" 
 F 0 "C?" H 1715 3171 50  0000 L CNN
 F 1 "100u" H 1715 3080 50  0000 L CNN
 F 2 "" H 1638 2975 50  0001 C CNN
@@ -647,6 +661,8 @@ AR Path="/5E897F4F/5FB43A2F" Ref="L?"  Part="1"
 AR Path="/5E897F53/5FB43A2F" Ref="L?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A2F" Ref="L?"  Part="1" 
 AR Path="/5E84EB53/5FB43A2F" Ref="L?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A2F" Ref="L?"  Part="1" 
+AR Path="/5E800F07/5FB43A2F" Ref="L?"  Part="1" 
 F 0 "L?" V 2400 2425 50  0000 C CNN
 F 1 "10uH" V 2500 2425 50  0000 C CNN
 F 2 "" H 2300 2425 50  0001 C CNN
@@ -719,6 +735,8 @@ AR Path="/5E897F4F/5FB43A35" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB43A35" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A35" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB43A35" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A35" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB43A35" Ref="R?"  Part="1" 
 F 0 "R?" V 2500 2625 50  0000 C CNN
 F 1 "1k" V 2400 2625 50  0000 C CNN
 F 2 "" V 2230 2625 50  0001 C CNN
@@ -792,6 +810,8 @@ AR Path="/5E897F4F/5FB43A3B" Ref="U?"  Part="1"
 AR Path="/5E897F53/5FB43A3B" Ref="U?"  Part="1" 
 AR Path="/5E84EB4F/5FB43A3B" Ref="U?"  Part="1" 
 AR Path="/5E84EB53/5FB43A3B" Ref="U?"  Part="1" 
+AR Path="/5E81CCF3/5FB43A3B" Ref="U?"  Part="1" 
+AR Path="/5E800F07/5FB43A3B" Ref="U?"  Part="1" 
 F 0 "U?" H 3500 3990 50  0000 C CNN
 F 1 "SPV1040" H 3500 3899 50  0000 C CNN
 F 2 "" H 3350 3075 50  0001 C CNN
@@ -853,6 +873,8 @@ AR Path="/5E897F4F/5FB55EDF" Ref="SC?"  Part="1"
 AR Path="/5E897F53/5FB55EDF" Ref="SC?"  Part="1" 
 AR Path="/5E84EB4F/5FB55EDF" Ref="SC?"  Part="1" 
 AR Path="/5E84EB53/5FB55EDF" Ref="SC?"  Part="1" 
+AR Path="/5E81CCF3/5FB55EDF" Ref="SC?"  Part="1" 
+AR Path="/5E800F07/5FB55EDF" Ref="SC?"  Part="1" 
 F 0 "SC?" H 933 4746 50  0000 L CNN
 F 1 "Solar_Cell" H 933 4655 50  0000 L CNN
 F 2 "" V 825 4710 50  0001 C CNN
@@ -945,6 +967,8 @@ AR Path="/5E897F4F/5FB55EF1" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB55EF1" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB55EF1" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB55EF1" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB55EF1" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB55EF1" Ref="R?"  Part="1" 
 F 0 "R?" H 4745 4646 50  0000 L CNN
 F 1 "330k" H 4745 4555 50  0000 L CNN
 F 2 "" V 4605 4600 50  0001 C CNN
@@ -1017,6 +1041,8 @@ AR Path="/5E897F4F/5FB55EF8" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB55EF8" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB55EF8" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB55EF8" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB55EF8" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB55EF8" Ref="R?"  Part="1" 
 F 0 "R?" H 4745 4146 50  0000 L CNN
 F 1 "768k" H 4745 4055 50  0000 L CNN
 F 2 "" V 4605 4100 50  0001 C CNN
@@ -1113,6 +1139,8 @@ AR Path="/5E897F4F/5FB55F0D" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB55F0D" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F0D" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB55F0D" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F0D" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB55F0D" Ref="C?"  Part="1" 
 F 0 "C?" H 3975 4650 50  0000 L CNN
 F 1 "1n" H 3975 4550 50  0000 L CNN
 F 2 "" H 4263 4450 50  0001 C CNN
@@ -1202,6 +1230,8 @@ AR Path="/5E897F4F/5FB55F1D" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB55F1D" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F1D" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB55F1D" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F1D" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB55F1D" Ref="C?"  Part="1" 
 F 0 "C?" H 2275 4650 50  0000 L CNN
 F 1 "1n" H 2275 4550 50  0000 L CNN
 F 2 "" H 2563 4450 50  0001 C CNN
@@ -1297,6 +1327,8 @@ AR Path="/5E897F4F/5FB55F30" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB55F30" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F30" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB55F30" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F30" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB55F30" Ref="C?"  Part="1" 
 F 0 "C?" H 5290 4646 50  0000 L CNN
 F 1 "100u" H 5290 4555 50  0000 L CNN
 F 2 "" H 5213 4450 50  0001 C CNN
@@ -1369,6 +1401,8 @@ AR Path="/5E897F4F/5FB55F36" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB55F36" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F36" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB55F36" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F36" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB55F36" Ref="C?"  Part="1" 
 F 0 "C?" H 1690 4696 50  0000 L CNN
 F 1 "100u" H 1690 4605 50  0000 L CNN
 F 2 "" H 1613 4500 50  0001 C CNN
@@ -1441,6 +1475,8 @@ AR Path="/5E897F4F/5FB55F3C" Ref="L?"  Part="1"
 AR Path="/5E897F53/5FB55F3C" Ref="L?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F3C" Ref="L?"  Part="1" 
 AR Path="/5E84EB53/5FB55F3C" Ref="L?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F3C" Ref="L?"  Part="1" 
+AR Path="/5E800F07/5FB55F3C" Ref="L?"  Part="1" 
 F 0 "L?" V 2375 3950 50  0000 C CNN
 F 1 "10uH" V 2475 3950 50  0000 C CNN
 F 2 "" H 2275 3950 50  0001 C CNN
@@ -1513,6 +1549,8 @@ AR Path="/5E897F4F/5FB55F42" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB55F42" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F42" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB55F42" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F42" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB55F42" Ref="R?"  Part="1" 
 F 0 "R?" V 2475 4150 50  0000 C CNN
 F 1 "1k" V 2375 4150 50  0000 C CNN
 F 2 "" V 2205 4150 50  0001 C CNN
@@ -1586,6 +1624,8 @@ AR Path="/5E897F4F/5FB55F48" Ref="U?"  Part="1"
 AR Path="/5E897F53/5FB55F48" Ref="U?"  Part="1" 
 AR Path="/5E84EB4F/5FB55F48" Ref="U?"  Part="1" 
 AR Path="/5E84EB53/5FB55F48" Ref="U?"  Part="1" 
+AR Path="/5E81CCF3/5FB55F48" Ref="U?"  Part="1" 
+AR Path="/5E800F07/5FB55F48" Ref="U?"  Part="1" 
 F 0 "U?" H 3475 5515 50  0000 C CNN
 F 1 "SPV1040" H 3475 5424 50  0000 C CNN
 F 2 "" H 3325 4600 50  0001 C CNN
@@ -1647,6 +1687,8 @@ AR Path="/5E897F4F/5FB5D240" Ref="SC?"  Part="1"
 AR Path="/5E897F53/5FB5D240" Ref="SC?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D240" Ref="SC?"  Part="1" 
 AR Path="/5E84EB53/5FB5D240" Ref="SC?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D240" Ref="SC?"  Part="1" 
+AR Path="/5E800F07/5FB5D240" Ref="SC?"  Part="1" 
 F 0 "SC?" H 6108 3221 50  0000 L CNN
 F 1 "Solar_Cell" H 6108 3130 50  0000 L CNN
 F 2 "" V 6000 3185 50  0001 C CNN
@@ -1739,6 +1781,8 @@ AR Path="/5E897F4F/5FB5D252" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB5D252" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D252" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB5D252" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D252" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB5D252" Ref="R?"  Part="1" 
 F 0 "R?" H 9920 3121 50  0000 L CNN
 F 1 "330k" H 9920 3030 50  0000 L CNN
 F 2 "" V 9780 3075 50  0001 C CNN
@@ -1811,6 +1855,8 @@ AR Path="/5E897F4F/5FB5D259" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB5D259" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D259" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB5D259" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D259" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB5D259" Ref="R?"  Part="1" 
 F 0 "R?" H 9920 2621 50  0000 L CNN
 F 1 "768k" H 9920 2530 50  0000 L CNN
 F 2 "" V 9780 2575 50  0001 C CNN
@@ -1907,6 +1953,8 @@ AR Path="/5E897F4F/5FB5D26E" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB5D26E" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D26E" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB5D26E" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D26E" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB5D26E" Ref="C?"  Part="1" 
 F 0 "C?" H 9150 3125 50  0000 L CNN
 F 1 "1n" H 9150 3025 50  0000 L CNN
 F 2 "" H 9438 2925 50  0001 C CNN
@@ -1996,6 +2044,8 @@ AR Path="/5E897F4F/5FB5D27E" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB5D27E" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D27E" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB5D27E" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D27E" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB5D27E" Ref="C?"  Part="1" 
 F 0 "C?" H 7450 3125 50  0000 L CNN
 F 1 "1n" H 7450 3025 50  0000 L CNN
 F 2 "" H 7738 2925 50  0001 C CNN
@@ -2091,6 +2141,8 @@ AR Path="/5E897F4F/5FB5D291" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB5D291" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D291" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB5D291" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D291" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB5D291" Ref="C?"  Part="1" 
 F 0 "C?" H 10465 3121 50  0000 L CNN
 F 1 "100u" H 10465 3030 50  0000 L CNN
 F 2 "" H 10388 2925 50  0001 C CNN
@@ -2163,6 +2215,8 @@ AR Path="/5E897F4F/5FB5D297" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB5D297" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D297" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB5D297" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D297" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB5D297" Ref="C?"  Part="1" 
 F 0 "C?" H 6865 3171 50  0000 L CNN
 F 1 "100u" H 6865 3080 50  0000 L CNN
 F 2 "" H 6788 2975 50  0001 C CNN
@@ -2235,6 +2289,8 @@ AR Path="/5E897F4F/5FB5D29D" Ref="L?"  Part="1"
 AR Path="/5E897F53/5FB5D29D" Ref="L?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D29D" Ref="L?"  Part="1" 
 AR Path="/5E84EB53/5FB5D29D" Ref="L?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D29D" Ref="L?"  Part="1" 
+AR Path="/5E800F07/5FB5D29D" Ref="L?"  Part="1" 
 F 0 "L?" V 7550 2425 50  0000 C CNN
 F 1 "10uH" V 7650 2425 50  0000 C CNN
 F 2 "" H 7450 2425 50  0001 C CNN
@@ -2307,6 +2363,8 @@ AR Path="/5E897F4F/5FB5D2A3" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB5D2A3" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D2A3" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB5D2A3" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D2A3" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB5D2A3" Ref="R?"  Part="1" 
 F 0 "R?" V 7650 2625 50  0000 C CNN
 F 1 "1k" V 7550 2625 50  0000 C CNN
 F 2 "" V 7380 2625 50  0001 C CNN
@@ -2380,6 +2438,8 @@ AR Path="/5E897F4F/5FB5D2A9" Ref="U?"  Part="1"
 AR Path="/5E897F53/5FB5D2A9" Ref="U?"  Part="1" 
 AR Path="/5E84EB4F/5FB5D2A9" Ref="U?"  Part="1" 
 AR Path="/5E84EB53/5FB5D2A9" Ref="U?"  Part="1" 
+AR Path="/5E81CCF3/5FB5D2A9" Ref="U?"  Part="1" 
+AR Path="/5E800F07/5FB5D2A9" Ref="U?"  Part="1" 
 F 0 "U?" H 8650 3990 50  0000 C CNN
 F 1 "SPV1040" H 8650 3899 50  0000 C CNN
 F 2 "" H 8500 3075 50  0001 C CNN
@@ -2441,6 +2501,8 @@ AR Path="/5E897F4F/5FB65C11" Ref="SC?"  Part="1"
 AR Path="/5E897F53/5FB65C11" Ref="SC?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C11" Ref="SC?"  Part="1" 
 AR Path="/5E84EB53/5FB65C11" Ref="SC?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C11" Ref="SC?"  Part="1" 
+AR Path="/5E800F07/5FB65C11" Ref="SC?"  Part="1" 
 F 0 "SC?" H 6108 4746 50  0000 L CNN
 F 1 "Solar_Cell" H 6108 4655 50  0000 L CNN
 F 2 "" V 6000 4710 50  0001 C CNN
@@ -2533,6 +2595,8 @@ AR Path="/5E897F4F/5FB65C23" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB65C23" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C23" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB65C23" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C23" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB65C23" Ref="R?"  Part="1" 
 F 0 "R?" H 9920 4646 50  0000 L CNN
 F 1 "330k" H 9920 4555 50  0000 L CNN
 F 2 "" V 9780 4600 50  0001 C CNN
@@ -2605,6 +2669,8 @@ AR Path="/5E897F4F/5FB65C2A" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB65C2A" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C2A" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB65C2A" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C2A" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB65C2A" Ref="R?"  Part="1" 
 F 0 "R?" H 9920 4146 50  0000 L CNN
 F 1 "768k" H 9920 4055 50  0000 L CNN
 F 2 "" V 9780 4100 50  0001 C CNN
@@ -2701,6 +2767,8 @@ AR Path="/5E897F4F/5FB65C3F" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB65C3F" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C3F" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB65C3F" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C3F" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB65C3F" Ref="C?"  Part="1" 
 F 0 "C?" H 9150 4650 50  0000 L CNN
 F 1 "1n" H 9150 4550 50  0000 L CNN
 F 2 "" H 9438 4450 50  0001 C CNN
@@ -2790,6 +2858,8 @@ AR Path="/5E897F4F/5FB65C4F" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB65C4F" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C4F" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB65C4F" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C4F" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB65C4F" Ref="C?"  Part="1" 
 F 0 "C?" H 7450 4650 50  0000 L CNN
 F 1 "1n" H 7450 4550 50  0000 L CNN
 F 2 "" H 7738 4450 50  0001 C CNN
@@ -2885,6 +2955,8 @@ AR Path="/5E897F4F/5FB65C62" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB65C62" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C62" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB65C62" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C62" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB65C62" Ref="C?"  Part="1" 
 F 0 "C?" H 10465 4646 50  0000 L CNN
 F 1 "100u" H 10465 4555 50  0000 L CNN
 F 2 "" H 10388 4450 50  0001 C CNN
@@ -2957,6 +3029,8 @@ AR Path="/5E897F4F/5FB65C68" Ref="C?"  Part="1"
 AR Path="/5E897F53/5FB65C68" Ref="C?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C68" Ref="C?"  Part="1" 
 AR Path="/5E84EB53/5FB65C68" Ref="C?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C68" Ref="C?"  Part="1" 
+AR Path="/5E800F07/5FB65C68" Ref="C?"  Part="1" 
 F 0 "C?" H 6865 4696 50  0000 L CNN
 F 1 "100u" H 6865 4605 50  0000 L CNN
 F 2 "" H 6788 4500 50  0001 C CNN
@@ -3029,6 +3103,8 @@ AR Path="/5E897F4F/5FB65C6E" Ref="L?"  Part="1"
 AR Path="/5E897F53/5FB65C6E" Ref="L?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C6E" Ref="L?"  Part="1" 
 AR Path="/5E84EB53/5FB65C6E" Ref="L?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C6E" Ref="L?"  Part="1" 
+AR Path="/5E800F07/5FB65C6E" Ref="L?"  Part="1" 
 F 0 "L?" V 7550 3950 50  0000 C CNN
 F 1 "10uH" V 7650 3950 50  0000 C CNN
 F 2 "" H 7450 3950 50  0001 C CNN
@@ -3101,6 +3177,8 @@ AR Path="/5E897F4F/5FB65C74" Ref="R?"  Part="1"
 AR Path="/5E897F53/5FB65C74" Ref="R?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C74" Ref="R?"  Part="1" 
 AR Path="/5E84EB53/5FB65C74" Ref="R?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C74" Ref="R?"  Part="1" 
+AR Path="/5E800F07/5FB65C74" Ref="R?"  Part="1" 
 F 0 "R?" V 7650 4150 50  0000 C CNN
 F 1 "1k" V 7550 4150 50  0000 C CNN
 F 2 "" V 7380 4150 50  0001 C CNN
@@ -3174,6 +3252,8 @@ AR Path="/5E897F4F/5FB65C7A" Ref="U?"  Part="1"
 AR Path="/5E897F53/5FB65C7A" Ref="U?"  Part="1" 
 AR Path="/5E84EB4F/5FB65C7A" Ref="U?"  Part="1" 
 AR Path="/5E84EB53/5FB65C7A" Ref="U?"  Part="1" 
+AR Path="/5E81CCF3/5FB65C7A" Ref="U?"  Part="1" 
+AR Path="/5E800F07/5FB65C7A" Ref="U?"  Part="1" 
 F 0 "U?" H 8650 5515 50  0000 C CNN
 F 1 "SPV1040" H 8650 5424 50  0000 C CNN
 F 2 "" H 8500 4600 50  0001 C CNN
