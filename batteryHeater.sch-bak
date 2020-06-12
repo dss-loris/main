@@ -25,10 +25,10 @@ F 3 "" H 900 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:C-Device C?
+L Main-rescue:C-Device C34
 U 1 1 5D1F3804
 P 900 1100
-F 0 "C?" H 1015 1146 50  0000 L CNN
+F 0 "C34" H 1015 1146 50  0000 L CNN
 F 1 "0.1uF" H 1015 1055 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 938 950 50  0001 C CNN
 F 3 "~" H 900 1100 50  0001 C CNN
@@ -68,10 +68,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 3800 3250 3950
 $Comp
-L Main-rescue:C-Device C?
+L Main-rescue:C-Device C35
 U 1 1 5D1F5549
 P 3250 4100
-F 0 "C?" H 3365 4146 50  0000 L CNN
+F 0 "C35" H 3365 4146 50  0000 L CNN
 F 1 "470pF" H 3365 4055 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 3950 50  0001 C CNN
 F 3 "~" H 3250 4100 50  0001 C CNN
@@ -93,10 +93,10 @@ Wire Wire Line
 	4900 3800 4900 4100
 Connection ~ 4600 3800
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R69
 U 1 1 5D1F18BB
 P 1850 1800
-F 0 "R?" H 1920 1846 50  0000 L CNN
+F 0 "R69" H 1920 1846 50  0000 L CNN
 F 1 "13k" V 1850 1700 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1780 1800 50  0001 C CNN
 F 3 "~" H 1850 1800 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "~" H 1850 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R70
 U 1 1 5D1F1951
 P 2300 2150
-F 0 "R?" H 2370 2196 50  0000 L CNN
+F 0 "R70" H 2370 2196 50  0000 L CNN
 F 1 "20k" H 2370 2105 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2230 2150 50  0001 C CNN
 F 3 "~" H 2300 2150 50  0001 C CNN
@@ -128,10 +128,10 @@ F 3 "" H 2300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:LT1492-Amplifier_Operational U?
+L Main-rescue:LT1492-Amplifier_Operational U24
 U 1 1 5D1F2936
 P 3600 1700
-F 0 "U?" H 3600 2067 50  0000 C CNN
+F 0 "U24" H 3600 2067 50  0000 C CNN
 F 1 "LTC6079" H 3600 1976 50  0000 C CNN
 F 2 "" H 3600 1700 50  0001 C CNN
 F 3 "http://cds.linear.com/docs/en/datasheet/14923f.pdf" H 3600 1700 50  0001 C CNN
@@ -141,10 +141,10 @@ $EndComp
 Wire Wire Line
 	2300 1800 2300 2000
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R71
 U 1 1 5D1F6B8A
 P 2900 1600
-F 0 "R?" V 2693 1600 50  0000 C CNN
+F 0 "R71" V 2693 1600 50  0000 C CNN
 F 1 "1k" V 2784 1600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2830 1600 50  0001 C CNN
 F 3 "~" H 2900 1600 50  0001 C CNN
@@ -152,10 +152,10 @@ F 3 "~" H 2900 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Main-rescue:C-Device C?
+L Main-rescue:C-Device C37
 U 1 1 5D1F894B
 P 3600 1000
-F 0 "C?" V 3715 1046 50  0000 L CNN
+F 0 "C37" V 3715 1046 50  0000 L CNN
 F 1 "100uF" V 3450 800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 850 50  0001 C CNN
 F 3 "~" H 3600 1000 50  0001 C CNN
@@ -163,10 +163,10 @@ F 3 "~" H 3600 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R72
 U 1 1 5D1F89EA
 P 3900 1000
-F 0 "R?" V 3693 1000 50  0000 C CNN
+F 0 "R72" V 3693 1000 50  0000 C CNN
 F 1 "10M" V 3784 1000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 1000 50  0001 C CNN
 F 3 "~" H 3900 1000 50  0001 C CNN
@@ -174,10 +174,10 @@ F 3 "~" H 3900 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R73
 U 1 1 5D1F8A1E
 P 3900 1300
-F 0 "R?" V 3693 1300 50  0000 C CNN
+F 0 "R73" V 3693 1300 50  0000 C CNN
 F 1 "10M" V 3784 1300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 1300 50  0001 C CNN
 F 3 "~" H 3900 1300 50  0001 C CNN
@@ -192,10 +192,10 @@ Connection ~ 4250 1700
 Wire Wire Line
 	4050 1300 4250 1300
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R74
 U 1 1 5D1FAB9D
 P 4850 1700
-F 0 "R?" V 4643 1700 50  0000 C CNN
+F 0 "R74" V 4643 1700 50  0000 C CNN
 F 1 "100k" V 4734 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4780 1700 50  0001 C CNN
 F 3 "~" H 4850 1700 50  0001 C CNN
@@ -205,10 +205,10 @@ $EndComp
 Wire Wire Line
 	4250 1700 4700 1700
 $Comp
-L Main-rescue:LM6171D-Amplifier_Operational U?
+L Main-rescue:LM6171D-Amplifier_Operational U25
 U 1 1 5D1F6AA8
 P 6400 1600
-F 0 "U?" H 6500 1450 50  0000 C CNN
+F 0 "U25" H 6500 1450 50  0000 C CNN
 F 1 "LTC6079" H 6550 1850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 1400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm6171.pdf" H 6550 1750 50  0001 C CNN
@@ -242,10 +242,10 @@ $EndComp
 Wire Wire Line
 	6950 850  6100 850 
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R78
 U 1 1 5D1FBD9D
 P 5950 850
-F 0 "R?" V 5743 850 50  0000 C CNN
+F 0 "R78" V 5743 850 50  0000 C CNN
 F 1 "1M" V 5834 850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5880 850 50  0001 C CNN
 F 3 "~" H 5950 850 50  0001 C CNN
@@ -270,10 +270,10 @@ Wire Wire Line
 Text GLabel 5000 2800 0    50   Input ~ 0
 Vcc
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R75
 U 1 1 5D211CC9
 P 5250 3950
-F 0 "R?" H 5320 3996 50  0000 L CNN
+F 0 "R75" H 5320 3996 50  0000 L CNN
 F 1 "10" H 5320 3905 50  0000 L CNN
 F 2 "Resistors_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm" V 5180 3950 50  0001 C CNN
 F 3 "~" H 5250 3950 50  0001 C CNN
@@ -281,10 +281,10 @@ F 3 "~" H 5250 3950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:MPMOS-pspice M?
+L Main-rescue:MPMOS-pspice M4
 U 1 1 5D21272A
 P 5350 3250
-F 0 "M?" H 5637 3296 50  0000 L CNN
+F 0 "M4" H 5637 3296 50  0000 L CNN
 F 1 "MPMOS" H 5637 3205 50  0000 L CNN
 F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 5350 3250 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ZXM64P03X.pdf" H 5350 3250 50  0001 C CNN
@@ -318,8 +318,8 @@ L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E4295DF
 P 1900 3450
 AR Path="/5E4295DF" Ref="U?"  Part="1" 
-AR Path="/5D20C8DB/5E4295DF" Ref="U?"  Part="1" 
-F 0 "U?" H 1875 3565 50  0000 C CNN
+AR Path="/5D20C8DB/5E4295DF" Ref="U22"  Part="1" 
+F 0 "U22" H 1875 3565 50  0000 C CNN
 F 1 "LTC2997H" H 1875 3474 50  0000 C CNN
 F 2 "" H 1900 3450 50  0001 C CNN
 F 3 "" H 1900 3450 50  0001 C CNN
@@ -358,10 +358,10 @@ Wire Wire Line
 	6950 850  6950 1600
 Connection ~ 6950 1600
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R77
 U 1 1 5E4B7B53
 P 5300 850
-F 0 "R?" V 5093 850 50  0000 C CNN
+F 0 "R77" V 5093 850 50  0000 C CNN
 F 1 "100k" V 5184 850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5230 850 50  0001 C CNN
 F 3 "~" H 5300 850 50  0001 C CNN
@@ -391,10 +391,10 @@ Wire Wire Line
 	3250 4450 2600 4450
 Connection ~ 3250 4450
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R79
 U 1 1 5D1FCAF1
 P 6400 2350
-F 0 "R?" V 6193 2350 50  0000 C CNN
+F 0 "R79" V 6193 2350 50  0000 C CNN
 F 1 "200k" V 6284 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6330 2350 50  0001 C CNN
 F 3 "~" H 6400 2350 50  0001 C CNN
@@ -417,10 +417,10 @@ Wire Wire Line
 Wire Wire Line
 	5400 1900 5400 1700
 $Comp
-L Main-rescue:C-Device C?
+L Main-rescue:C-Device C38
 U 1 1 5E50ACB0
 P 5400 2050
-F 0 "C?" H 5450 2150 50  0000 L CNN
+F 0 "C38" H 5450 2150 50  0000 L CNN
 F 1 "100uF" H 5450 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5438 1900 50  0001 C CNN
 F 3 "~" H 5400 2050 50  0001 C CNN
@@ -485,10 +485,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 6050 3250 6200
 $Comp
-L Main-rescue:C-Device C?
+L Main-rescue:C-Device C36
 U 1 1 5E560E15
 P 3250 6350
-F 0 "C?" H 3365 6396 50  0000 L CNN
+F 0 "C36" H 3365 6396 50  0000 L CNN
 F 1 "470pF" H 3365 6305 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 6200 50  0001 C CNN
 F 3 "~" H 3250 6350 50  0001 C CNN
@@ -514,10 +514,10 @@ Vcc
 Wire Wire Line
 	950  6050 1400 6050
 $Comp
-L Main-rescue:R-Device R?
+L Main-rescue:R-Device R76
 U 1 1 5E560E2B
 P 5250 6200
-F 0 "R?" H 5320 6246 50  0000 L CNN
+F 0 "R76" H 5320 6246 50  0000 L CNN
 F 1 "10" H 5320 6155 50  0000 L CNN
 F 2 "Resistors_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm" V 5180 6200 50  0001 C CNN
 F 3 "~" H 5250 6200 50  0001 C CNN
@@ -525,10 +525,10 @@ F 3 "~" H 5250 6200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Main-rescue:MPMOS-pspice M?
+L Main-rescue:MPMOS-pspice M5
 U 1 1 5E560E31
 P 5350 5500
-F 0 "M?" H 5637 5546 50  0000 L CNN
+F 0 "M5" H 5637 5546 50  0000 L CNN
 F 1 "MPMOS" H 5637 5455 50  0000 L CNN
 F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 5350 5500 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ZXM64P03X.pdf" H 5350 5500 50  0001 C CNN
@@ -560,8 +560,8 @@ L Main-rescue:LTC2997H-batteryHeater U?
 U 1 1 5E560E42
 P 1900 5700
 AR Path="/5E560E42" Ref="U?"  Part="1" 
-AR Path="/5D20C8DB/5E560E42" Ref="U?"  Part="1" 
-F 0 "U?" H 1875 5815 50  0000 C CNN
+AR Path="/5D20C8DB/5E560E42" Ref="U23"  Part="1" 
+F 0 "U23" H 1875 5815 50  0000 C CNN
 F 1 "LTC2997H" H 1875 5724 50  0000 C CNN
 F 2 "" H 1900 5700 50  0001 C CNN
 F 3 "" H 1900 5700 50  0001 C CNN
@@ -594,10 +594,10 @@ Vcc
 Wire Wire Line
 	5150 5050 5000 5050
 $Comp
-L 74xGxx:74LVC1G32 U?
+L 74xGxx:74LVC1G32 U28
 U 1 1 5E56CF68
 P 9550 3700
-F 0 "U?" H 9525 3967 50  0000 C CNN
+F 0 "U28" H 9525 3967 50  0000 C CNN
 F 1 "74LVC1G32" H 9525 3876 50  0000 C CNN
 F 2 "" H 9550 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9550 3700 50  0001 C CNN
@@ -605,10 +605,10 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9550 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74xGxx:74AHC1G08 U?
+L 74xGxx:74AHC1G08 U27
 U 1 1 5E56DEF1
 P 8450 3750
-F 0 "U?" H 8425 4017 50  0000 C CNN
+F 0 "U27" H 8425 4017 50  0000 C CNN
 F 1 "74AHC1G08" H 8425 3926 50  0000 C CNN
 F 2 "" H 8450 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8450 3750 50  0001 C CNN
@@ -643,10 +643,10 @@ Wire Wire Line
 	1000 1800 1700 1800
 NoConn ~ 1400 5850
 $Comp
-L Transistor_BJT:MMBT3904 Q?
+L Transistor_BJT:MMBT3904 Q13
 U 1 1 5E3D63BD
 P 4700 6350
-F 0 "Q?" H 4891 6396 50  0000 L CNN
+F 0 "Q13" H 4891 6396 50  0000 L CNN
 F 1 "MMBT3904" H 4891 6305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 6275 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  0001 L CNN
@@ -654,10 +654,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 6350 50  000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MMBT3904 Q?
+L Transistor_BJT:MMBT3904 Q12
 U 1 1 5E3E16A3
 P 4700 4100
-F 0 "Q?" H 4891 4146 50  0000 L CNN
+F 0 "Q12" H 4891 4146 50  0000 L CNN
 F 1 "MMBT3904" H 4891 4055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4900 4025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4700 4100 50  0001 L CNN
@@ -669,10 +669,10 @@ To Do:\n1.) How many sensors do we want? can they be configured to use the one o
 Wire Wire Line
 	9300 3700 8750 3700
 $Comp
-L 74xGxx:74AUC1G126 U?
+L 74xGxx:74AUC1G126 U26
 U 1 1 5E3EB5FA
 P 7900 4150
-F 0 "U?" H 7875 3975 50  0000 C CNN
+F 0 "U26" H 7875 3975 50  0000 C CNN
 F 1 "74AUC1G126" H 7875 3884 50  0000 C CNN
 F 2 "" H 7900 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7900 4150 50  0001 C CNN
